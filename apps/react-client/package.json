@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "vite build",
+    "build": "vite build --outDir ../../dist/admin",
     "clean": "rm -rf dist",
     "dev": "vite --host 0.0.0.0 --port 3001 --clearScreen false",
     "typecheck": "tsc --noEmit",
@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@repo/ui": "workspace:*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.62",
